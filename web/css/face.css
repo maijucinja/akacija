@@ -1,0 +1,46 @@
+
+body {
+    background:#0c0c0c;;
+}
+.akacija{
+    width:100%;
+    min-width: 309px;
+    min-height: 68px;
+    height:68px;
+    text-align: center;
+}		
+.header{
+    
+    background: url(img/tree.jpg); 
+    min-width: 356px;
+    min-height: 550px;
+    background-repeat: no-repeat;
+    background-position: top center;
+    
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+p:hover{
+    background: green;
+}
+p {
+    position: absolute; 
+    text-align: center;
+    display: inline-block;
+    background: black;
+    font-size:13;
+    border: 1px solid;
+    width: 50px;
+    height: 25px;
+}
+
+.enter {
+    text-align: center;
+    margin-top: -200px;
+}
+container row{
+
+
+}

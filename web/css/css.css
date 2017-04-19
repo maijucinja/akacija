@@ -1,0 +1,381 @@
+body {
+    background: black;
+}
+
+.valodas {
+    padding-top: 20px;
+    padding-left: 30px;
+}
+
+.col-md-6 .item {
+    position: relative;
+    display: block;
+    background-size: cover;
+    width: 30px;
+    height: 20px;
+    float: right;
+    margin-right: 20px;
+}
+
+.image {
+    position: relative;
+    display: block;
+    background-size: cover;
+    width: 100%;
+    height: 150px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+
+.akacija ul {
+    display: inline;
+    list-style-type: none;
+    margin:0;
+    margin-left: 20px;
+    padding:0;
+    text-align: right;
+}
+
+.akacija ul li {
+    display: inline;
+    list-style: none;
+}
+
+.akacija h1 {
+    padding:0;
+    margin: 0;
+    text-transform: uppercase; 
+    color: green; 
+    /*margin-left: 20px; */
+    display: inline;
+    font-weight: bold;
+    font-family: 'Trocchi', serif;
+
+
+ text-shadow: 1px 1px 2px black, 0 0 25px green, 0 0 5px darkblue;
+}
+
+.nav{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    background-color: #242424;
+
+}
+/*.navbar-nav {
+    float: none;
+    display: table;
+    margin: 20px auto;
+    table-layout: fixed;
+}*/
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    display: inline-block;
+    border-right: 1px solid black;
+    /*margin-right: 1px;*/
+}
+
+ /*ul .navbar-nav{
+     width: 100%;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    position: absolute;
+    background-color: #242424;
+}*/
+
+.nav li{
+	background: #242424;
+    /*margin-right: 15px;*/  
+}
+
+li a {
+	display:block;
+	min-width:110px;
+	height: 50px;
+	text-align: left;
+	line-height: 50px;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	color: #fff;
+	background: #242424;
+	text-decoration: none;
+}
+
+@media (max-width: 1024px) {
+    li a {
+	display:block;
+	min-width:80px;
+    }
+}
+
+@media (max-width: 789px) {
+    li a {
+	display:block;
+	min-width:140px;
+    }
+}
+
+@media (max-width: 1134px) {
+    li a {
+	display:block;
+	min-width:80px;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 990px) {
+    li a {
+	display:block;
+	min-width:140px;
+    }
+}
+
+@media only screen and (min-width: 1135px) and (max-width: 1199px) {
+    li a {
+	display:block;
+	min-width:80px;
+    }
+}
+
+.nav a {
+    text-decoration: none;
+    color: white;
+}
+
+.nav li a:hover {
+    background-color: black;
+}
+
+.nav li a:focus {
+    background-color: black;
+}
+
+.nav a:hover{
+    color: green;
+    background-color: #424242;
+}
+
+.nav a:focus {
+    color: green;
+    background-color: #424242;
+}
+
+/*
+.active {
+    background-color: #424242;
+    color: green;
+}*/
+
+
+
+b{
+    color: white;
+    padding-bottom: 30px;
+}
+
+p{
+    color: gray;
+}
+
+.text{
+    padding-top: 40px;
+    padding-right: 20px;
+    padding-left:30px;
+    font-size: 14px;
+    height: 400px;
+    overflow: auto;
+}
+
+.fre{
+    /*border: 1px solid;*/
+    background: #242424;
+    max-width: 700px;
+}
+
+.fre h3 {
+    color: white;
+    text-align: center;
+}
+
+.text{
+    border-left: 1px solid;
+    border-bottom: 1px solid;
+    border-right: 1px solid;
+    /*background: #242424;*/
+    background: #0c0c0c;
+    margin-top: -20px;
+    max-width: 700px;
+}
+
+.text ul li {
+    color: grey;
+    padding: 8px;
+}
+
+.tree{
+    /*float:right;*/
+    padding-right: 50px;
+
+}
+
+.navbar-header{
+     /*max-width: 700px;*/
+    background: #242424;
+}
+
+.navbar-toggle {
+    background: white;
+}
+.icon-bar {
+    background: black;
+
+}
+
+.sr-only{
+    color: white;
+}
+
+.sound{
+    color: green;
+}
+
+.softikom{
+    color: green;
+}
+.center{
+    /*border: 1px solid;*/
+    background: #0c0c0c;
+    height: 700px;  
+    border-color:black;   
+}
+
+.container {
+    background-color: #0c0c0c;
+}
+
+@media (max-width: 1024px) {
+    .tree {
+        visibility: hidden;
+    }
+}
+/*
+@media (max-width: 1026px) {
+.text{
+    max-width: 800px;
+    }
+    .fre{
+    max-width: 800px;
+    margin-top: 300px;
+    }
+}*/
+
+
+.kontakti h2 {
+    color: white;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.item_tree {
+    position:relative;
+    display: block;
+    background-size: cover;
+    width: 100%;
+    height: 680px;
+}
+
+input {
+    width: 100%;
+    background-color: #0c0c0c;
+    border: 1px solid;
+    color: white;
+    /*padding: 3px;*/
+}
+
+.atstarpe {
+    padding-left: 10px;
+}
+
+textarea {
+    width: 100%;
+    margin-top: 20px;
+    background-color: #0c0c0c;
+    color: white;
+    margin-bottom: 5px;
+}
+
+.kontakti1 p {
+    margin: 0 0 1px;
+}
+
+
+.kontakti2 h2 {
+    color: white;
+    text-align: left;
+}
+
+.img {
+    width: 100%;
+}
+
+.tekts {
+    /*border-right: 1px solid;
+    border-bottom: 1px solid;
+    border-left: 1px solid;*/
+
+    width: 100%;
+    height: 400px;
+    overflow: auto;
+    margin-bottom: 30px;
+}
+
+
+.tekts li {
+    color: gray;
+}
+
+/*@media (max-width: 1024px) {
+
+}*/
+
+
+
+
+.tekts{
+    scrollbar-face-color: #367CD2;
+    scrollbar-shadow-color: #FFFFFF;
+    scrollbar-highlight-color: #FFFFFF;
+    scrollbar-3dlight-color: #FFFFFF;
+    scrollbar-darkshadow-color: #FFFFFF;
+    scrollbar-track-color: #FFFFFF;
+    scrollbar-arrow-color: #FFFFFF;
+}
+
+/* Let's get this party started */
+.tekts::-webkit-scrollbar {
+    width: 12px;
+}
+ 
+/* Track */
+.tekts::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px #242424;
+}
+ 
+/* Handle */
+.tekts:-webkit-scrollbar-thumb {
+    background-color: darkgrey;
+    outline: 1px solid slategrey;
+}
+
+
+.pogas a {
+    color: white;
+    float: right;
+    margin-top: 0;
+    margin-right: 20px;
+    margin-bottom: 43px;
+}
